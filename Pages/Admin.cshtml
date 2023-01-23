@@ -1,0 +1,34 @@
+﻿@page
+@model AspNetCoreCookieAuthentication.Pages.AdminModel
+@using System.Security.Claims;
+@using Microsoft.AspNetCore.Identity;
+
+@{
+    
+}
+<h1 class="text-center">Admin Page</h1>
+<div class="container" style="background:red;">
+    <div class="container" style="width:50%;">
+
+        <form style="background:pink;width:300px;">
+        <div class="row">
+            <div class="col-4">
+                <label>ID:</label>
+                <select id="ids" name="ids">
+                @foreach (var item in Model.UserIds) {
+                    <option value="@item">@item</option>
+                }
+                </select>
+            </div>
+            <div class="col">
+                <label>Role:</label>
+                <select id="ids" name="ids">
+                    <option value="Admin">Admin</option>
+                    <option value="Doctor">Doctor</option>
+                    <option value="Client">Client</option>
+                </select>
+            </div>
+        </div>
+    </form>
+    </div>
+</div>

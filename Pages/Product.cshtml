@@ -1,0 +1,15 @@
+﻿@page
+@model AspNetCoreCookieAuthentication.Pages.ProductModel
+@{
+}
+
+@{}
+
+<h1>@ViewData["Title"]</h1>
+
+<h2>Product Page</h2>
+
+<p>Only authroized users can access this page</p>
+
+<h2>User id: @Model.UserId</h2>
+<h2>User Role: @Model.MyProperty</h2>
