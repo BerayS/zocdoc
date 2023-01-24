@@ -269,6 +269,14 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\lib\\daypilot\\daypilot-all.min.d.ts",
+      "PackagePath": "staticwebassets\\lib\\daypilot\\daypilot-all.min.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\lib\\daypilot\\daypilot-all.min.js",
+      "PackagePath": "staticwebassets\\lib\\daypilot\\daypilot-all.min.js"
+    },
+    {
       "Id": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },

@@ -44,8 +44,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50UGFuZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/serin/source/repos/AspNetCoreCookieAuthentication/AspNetCoreCookieAuthentication/Pages/DoctorPanel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yUGFuZWwuY3NodG1s
+[C:/Users/serin/source/repos/AspNetCoreCookieAuthentication/AspNetCoreCookieAuthentication/Pages/Doctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/serin/source/repos/AspNetCoreCookieAuthentication/AspNetCoreCookieAuthentication/Pages/Error.cshtml]

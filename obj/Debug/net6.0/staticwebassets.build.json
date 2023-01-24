@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8OlBtxUmWIfW/4B6QsJShJr9BcxGQDnjFoFR5OJe5KQ=",
+  "Hash": "W+H2yUus0PjfisL4DKnx1iVcZqC7rZA3K9kLG5GAPPY=",
   "Source": "AspNetCoreCookieAuthentication",
   "BasePath": "_content/AspNetCoreCookieAuthentication",
   "Mode": "Default",
@@ -1171,6 +1171,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\lib\\daypilot\\daypilot-all.min.d.ts",
+      "SourceId": "AspNetCoreCookieAuthentication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreCookieAuthentication",
+      "RelativePath": "lib/daypilot/daypilot-all.min.d.ts",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\daypilot\\daypilot-all.min.d.ts"
+    },
+    {
+      "Identity": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\lib\\daypilot\\daypilot-all.min.js",
+      "SourceId": "AspNetCoreCookieAuthentication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreCookieAuthentication",
+      "RelativePath": "lib/daypilot/daypilot-all.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\daypilot\\daypilot-all.min.js"
     },
     {
       "Identity": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
