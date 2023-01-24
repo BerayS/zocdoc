@@ -4,32 +4,67 @@
     ViewData["Title"] = "Register";
 }
 
-<h1>@ViewData["Title"]</h1>
 
-<div class="row">
-    <div class="col-md-4">
-        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
-            <h4>Create a new account.</h4>
-            <hr />
-            <div class="form-group">
-                <label asp-for="Input.Email"></label>
-                <input asp-for="Input.Email" class="form-control" />
-                <span asp-validation-for="Input.Email" class="text-danger"></span>
+
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="~/images/undraw_remotely_2j6y.svg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-md-6 contents">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="mb-4">
+                                <h3 class="mb-4">Sign Up</h3>
+                                <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                                    <div class="form-group first">
+                                        <input type="text" class="form-control" id="username" asp-for="Input.Email" placeholder="Email" style="font-size:16px;">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" asp-for="Input.Password" id="password" placeholder="Password" style="font-size:16px;">
+                                    </div>
+                                    <div class="form-group last mb-4">
+                                        <input type="password" class="form-control" asp-for="Input.ConfirmPassword" id="password" placeholder="Confirm Password" style="font-size:16px;">
+                                    </div>
+                                    <div class="d-flex mb-5 align-items-center">
+                                        <label class="control control--checkbox mb-0">
+                                            <span class="caption">Remember me</span>
+                                            <input type="checkbox" checked="checked" />
+                                            <div class="control__indicator"></div>
+                                        </label>
+                                        <br />
+                                        @*<span class="ml-auto">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="ml-3 forgot-pass">Forgot Password</a></span>*@
+                                    </div>
+
+                                    <input type="submit" value="Register" class="btn btn-block btn-primary">
+
+                                </form>
+
+
+                                @*
+                            <span class="d-block text-left my-4 text-muted">&mdash; or login with &mdash;</span>
+                            <div class="social-login">
+                                <a href="#" class="facebook">
+                                    <span class="icon-facebook mr-3"></span>
+                                </a>
+                                <a href="#" class="twitter">
+                                    <span class="icon-twitter mr-3"></span>
+                                </a>
+                                <a href="#" class="google">
+                                    <span class="icon-google mr-3"></span>
+                                </a>
+                            </div>
+*@
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="form-group">
-                <label asp-for="Input.Password"></label>
-                <input asp-for="Input.Password" class="form-control" />
-                <span asp-validation-for="Input.Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.ConfirmPassword"></label>
-                <input asp-for="Input.ConfirmPassword" class="form-control" />
-                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-            </div>
-            <button type="submit" class="btn btn-primary">Register</button>
-        </form>
+        </div>
     </div>
-</div>
+
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

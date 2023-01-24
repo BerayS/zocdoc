@@ -66,7 +66,7 @@ namespace AspNetCoreCookieAuthentication.Pages.Account
                 } 
                 else
                 {
-                    user = new User { Email = Input.Email, Password = Input.Password };
+                    user = new User { Email = Input.Email, Password = Input.Password,Role = "Client" };
                     Db.Users.Add(user);
                     await Db.SaveChangesAsync();
                     return RedirectToPage("RegisterConfirmation", new { email = Input.Email });

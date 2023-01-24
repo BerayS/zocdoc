@@ -17,8 +17,9 @@ namespace AspNetCoreCookieAuthentication.Pages
         public ApplicationDbContext _context;
 
 
-        public int User;
+        public  List<User> Users = new List<User>();
         public List<int> UserIds = new List<int>();
+
 
         public AdminModel(ApplicationDbContext context) {
             _context = context;
@@ -29,6 +30,10 @@ namespace AspNetCoreCookieAuthentication.Pages
         public void OnGet() {
             foreach (var user in _context.Users) {
                 UserIds.Add(user.Id);
+            }
+
+            foreach (var user in _context.Users) {
+                Users.Add(user);
             }
 
        

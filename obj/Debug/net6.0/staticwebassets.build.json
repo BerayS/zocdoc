@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X6Rs2DILKxu2RzSggm4W4DkQNj6igcFj39zM4Tjiumc=",
+  "Hash": "8OlBtxUmWIfW/4B6QsJShJr9BcxGQDnjFoFR5OJe5KQ=",
   "Source": "AspNetCoreCookieAuthentication",
   "BasePath": "_content/AspNetCoreCookieAuthentication",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\owl.carousel.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\css\\sidebar.css",
+      "SourceId": "AspNetCoreCookieAuthentication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreCookieAuthentication",
+      "RelativePath": "css/sidebar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sidebar.css"
     },
     {
       "Identity": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\css\\site.css",
@@ -355,6 +372,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\undraw_remotely_2j6y.svg"
+    },
+    {
+      "Identity": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\js\\sidebar.js",
+      "SourceId": "AspNetCoreCookieAuthentication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreCookieAuthentication",
+      "RelativePath": "js/sidebar.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sidebar.js"
     },
     {
       "Identity": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\js\\site.js",

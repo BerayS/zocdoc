@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
+      "Id": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\css\\sidebar.css",
+      "PackagePath": "staticwebassets\\css\\sidebar.css"
+    },
+    {
       "Id": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -75,6 +79,10 @@
     {
       "Id": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\images\\undraw_remotely_2j6y.svg",
       "PackagePath": "staticwebassets\\images\\undraw_remotely_2j6y.svg"
+    },
+    {
+      "Id": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\js\\sidebar.js",
+      "PackagePath": "staticwebassets\\js\\sidebar.js"
     },
     {
       "Id": "C:\\Users\\serin\\source\\repos\\AspNetCoreCookieAuthentication\\AspNetCoreCookieAuthentication\\wwwroot\\js\\site.js",
