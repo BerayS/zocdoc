@@ -120,7 +120,7 @@ a {
 }
 
 .show {
-    left: 0
+    left: 100px;
 }
 
 .body-pd {

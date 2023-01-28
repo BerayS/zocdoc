@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
         // Validate that all variables exist
         if (toggle && nav && bodypd && headerpd) {
-            toggle.addEventListener('click', () => {
+            toggle.addEventListener('onclick', () => {
                 // show navbar
                 nav.classList.toggle('show')
                 // change icon

@@ -6,55 +6,30 @@
 @{
     ViewData["Title"] = "ADMIN";
 }
-<h1 class="text-center">Admin Page</h1>
-@*<div class="container change-role">
-    <div class="container" style="width:50%;">
-
-        <form style="width:300px;">
-        <div class="row">
-            <div class="col-4">
-                <label>ID:</label>
-                <select id="ids" name="ids">
-                @foreach (var item in Model.UserIds) {
-                    <option value="@item">@item</option>
-                }
-                </select>
-            </div>
-            <div class="col">
-                <label>Role:</label>
-                <select id="ids" name="ids">
-                    <option value="Admin">Admin</option>
-                    <option value="Doctor">Doctor</option>
-                    <option value="Client">Client</option>
-                </select>
-            </div>
-        </div>
-    </form>
-    </div>
-</div>
-
-*@
-<    <header class="header" id="header">
+    <header class="header" id="header">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
-        <div class="header_img"> <img src="https://i.imgur.com/hczKIze.jpg" alt=""> </div>
+    <div class="header_title">Admin Page</div>
+        <div class="header_img"> <img src="" alt=""> </div>
     </header>
-    <div class="l-navbar" id="nav-bar">
+    <div class="l-navbar" style="width:200px;" id="nav-bar">
         <nav class="nav">
             <div>
                 <a href="#" class="nav_logo"> <i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">BBBootstrap</span> </a>
-                <div class="nav_list"> <a href="#" class="nav_link active"> <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name">Dashboard</span> </a> <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Users</span> </a> <a href="#" class="nav_link"> <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Messages</span> </a> <a href="#" class="nav_link"> <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">Bookmark</span> </a> <a href="#" class="nav_link"> <i class='bx bx-folder nav_icon'></i> <span class="nav_name">Files</span> </a> <a href="#" class="nav_link"> <i class='bx bx-bar-chart-alt-2 nav_icon'></i> <span class="nav_name">Stats</span> </a> </div>
+                <div class="nav_list">
+                    <a href="#" class="nav_link active"> <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name">Dashboard</span> </a>
+                    <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Users</span> </a> 
+                    <a href="#" class="nav_link"> <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Messages</span> </a> 
+                    <a href="#" class="nav_link"> <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">Bookmark</span> </a> 
+                    <a href="#" class="nav_link"> <i class='bx bx-folder nav_icon'></i> <span class="nav_name">Files</span> </a> 
+                    <a href="#" class="nav_link"> <i class='bx bx-bar-chart-alt-2 nav_icon'></i> <span class="nav_name">Stats</span> </a> </div>
             </div>
         <li class="nav-item" style="list-style:none;">
             <form class="form-inline" asp-area="" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
-                <button type="submit" class="nav_link" style="background:none;border:none;width:100%;"><i class='bx bx-log-out nav_icon'></i></button>
+                <button type="submit" class="nav_link" style="background:none;border:none;width:100%;"><i class='bx bx-log-out nav_icon'></i> Log Out</button>
             </form>
         </li>
-            
-                <i class='bx bx-log-out nav_icon'></i>
-            
-            
-            
-            </nav>
+        <i class='bx bx-log-out nav_icon'></i>
+        </nav>
     </div>
     <!--Container Main start-->
     <div class="">
@@ -66,6 +41,7 @@
                 <th scope="col">Email</th>
                 <th scope="col">Password</th>
                 <th scope="col">Role</th>
+                <th style="width:250px;" scope="col">Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -76,7 +52,7 @@
                     <td>@user.Email</td>
                     <td>@user.Password</td>
                     <td>@user.Role</td>
-
+                    <td><a asp-page="Account/Edit" asp-route-id="@user.Id" class="btn btn-primary" style="margin-right:15px;">Edit</a><button class="btn btn-primary" style="margin-right:15px;">Details</button><button class="btn btn-danger ml-3">Delete</button></td>
                 </tr>
             }
         </tbody>
@@ -84,8 +60,6 @@
     </div>
     <!--Container Main end-->
     <script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-
         const showNavbar = (toggleId, navId, bodyId, headerId) => {
             const toggle = document.getElementById(toggleId),
                 nav = document.getElementById(navId),
@@ -94,8 +68,8 @@
 
             // Validate that all variables exist
             if (toggle && nav && bodypd && headerpd) {
-                toggle.addEventListener('click', () => {
-                    // show navbar
+                toggle.addEventListener('onclick', () => {
+                    // show navbar  
                     nav.classList.toggle('show')
                     // change icon
                     toggle.classList.toggle('bx-x')
@@ -119,7 +93,5 @@
             }
         }
         linkColor.forEach(l => l.addEventListener('click', colorLink))
-
         // Your code to run since DOM is loaded and ready
-    });
     </script>
